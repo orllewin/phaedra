@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_width">200dp</dimen>
+    <dimen name="def_padding">16dp</dimen>
+    <dimen name="def_padding_double">32dp</dimen>
+    <dimen name="def_padding_triple">48dp</dimen>
+    <dimen name="big_text">18sp</dimen>
+    <dimen name="little_text">12sp</dimen>
+    <dimen name="standard_header">16sp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/add_bookmark"
+        android:layout_width="@dimen/menu_width"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:text="Add Bookmark"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/bookmarks"
+        android:layout_width="@dimen/menu_width"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:text="Bookmarks"
+        android:gravity="center_vertical"
+        />
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#efefef" />-->
+
+    <TextView
+        android:id="@+id/preferences"
+        android:layout_width="@dimen/menu_width"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:text="Settings"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="@dimen/menu_width"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:text="About"
+        android:gravity="center_vertical"
+        />
+</LinearLayout>

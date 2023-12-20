@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/def_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/close" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/close"
+            android:paddingLeft="@dimen/def_padding"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:text="Settings"
+            android:textSize="@dimen/big_text"/>
+
+        <ImageButton
+            android:id="@+id/save"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/save" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/def_padding_triple"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/standard_header"
+            android:paddingBottom="4dp"
+            android:text="Home Capsule" />
+
+        <EditText
+            android:id="@+id/home_capsule"
+            android:background="@drawable/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:hint="gemini://"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/def_padding"
+            android:textSize="@dimen/standard_header"
+            android:paddingBottom="4dp"
+            android:text="Background Colour"/>
+
+        <Spinner
+            android:id="@+id/background_colour_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/def_padding"
+            android:textSize="@dimen/standard_header"
+            android:paddingBottom="4dp"
+            android:text="Foreground Colour"/>
+
+        <Spinner
+            android:id="@+id/foreground_colour_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

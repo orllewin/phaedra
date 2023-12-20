@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/overflow"
+        tools:text="Oppen Digital"
+        android:textSize="@dimen/big_text" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/little_text"
+        tools:text="gemini://oppen.digital"
+        android:layout_below="@+id/title"/>
+
+    <ImageButton
+        android:id="@+id/overflow"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/overflow"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
